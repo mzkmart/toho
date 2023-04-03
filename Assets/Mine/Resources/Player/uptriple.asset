@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6675fb34f7c86bf44905e4e151e32f6c, type: 3}
+  m_Name: uptriple
+  m_EditorClassIdentifier: 
+  shotType: 0
+  angleType: 1
+  bulletSpeed: 10
+  bulletData: {fileID: 11400000, guid: dc9f60cf11f2ca945a96edf7a99cf015, type: 2}
+  bulletColorType: 0
+  shotIntervalTime: 0.1
+  onceShotBullet: 3
+  angleRange: 20
+  shotAngle: 180
+  spinAngleShift: 4.09
