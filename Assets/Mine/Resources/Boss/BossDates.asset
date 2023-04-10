@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04fb93df05aa3ae4ca52adb8f373c620, type: 3}
+  m_Name: BossDates
+  m_EditorClassIdentifier: 
+  bossImageIdle:
+  - {fileID: 21300000, guid: f1ca6568479d2e34294302e10a7bfc98, type: 3}
+  bossImageRightMove:
+  - {fileID: 21300000, guid: 37e5d56ffa89f3e48866563443d11145, type: 3}
+  bossColliderRadius: 0
+  offset: {x: 0, y: 0}
+  bossWaveData:
+  - name: a
+    isSpellCard: 0
+    bossMovePattern: 4
+    bossShotData: {fileID: 11400000, guid: 970fdf662b1477d4186631419436cac5, type: 2}
+    bossHp: 100
+    waveTime: 60
+  - name: a
+    isSpellCard: 0
+    bossMovePattern: 3
+    bossShotData: {fileID: 11400000, guid: 6cb73b01487faea41b081b9edb86b267, type: 2}
+    bossHp: 100
+    waveTime: 60

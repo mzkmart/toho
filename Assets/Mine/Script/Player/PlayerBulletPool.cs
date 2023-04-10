@@ -20,7 +20,7 @@ public class PlayerBulletPool : MonoBehaviour
     }
 
     //ìGÇê∂ê¨Ç∑ÇÈÇ©trueÇ…Ç∑ÇÈÇ©
-    public void InstBullet(Vector3 pos, PlayerBulletData enemyBulletData, float bulletSpeed, Vector2 moveDirection)
+    public void InstBullet(Vector3 pos, BulletSpriteData enemyBulletData, float bulletSpeed, Vector2 moveDirection)
     {
         _bulletRandamRotation = Random.Range(-19.0f, 18.0f);
         Quaternion a = Quaternion.Euler(0, 0, _bulletRandamRotation);

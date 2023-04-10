@@ -1,4 +1,3 @@
-using UnityEditor.UI;
 using UnityEngine;
 //ƒvƒŒƒCƒ„[‚Ì‘€ì
 public class PlayerController : PlayerManager

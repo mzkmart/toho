@@ -42,12 +42,12 @@ public class PlayerManager : MonoBehaviour
     {
         _playerBulletPool = GameObject.FindGameObjectWithTag("PlayerBulletPool").GetComponent<PlayerBulletPool>();
     }
-    private protected void PlayerShot(PlayerShotData shotData, PlayerBulletData bulletData, int shotCount, Vector2 vector2)
+    private protected void PlayerShot(PlayerShotData shotData, BulletSpriteData bulletData, int shotCount, Vector2 vector2)
     {
         // ショットパターンを読み込んで生成（パターンごとに弾数が違うのでForループ）
         for (int i = 0; i < shotData.OnceShotBullet; i++)
         {
-            Vector2 moveDirection = PlayerBulletVectorCalculation.BulletVector(transform.position, shotData, i, shotCount);
+            Vector2 moveDirection = BulletVectorCalculation.BulletVector(transform.position, shotData, i, shotCount);
 
             _playerBulletPool.InstBullet(vector2, bulletData, shotData.BulletSpeed, moveDirection);
         }

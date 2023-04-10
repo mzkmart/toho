@@ -15,7 +15,7 @@ MonoBehaviour:
   shotType: 0
   angleType: 1
   bulletSpeed: 10
-  bulletData: {fileID: 11400000, guid: dc9f60cf11f2ca945a96edf7a99cf015, type: 2}
+  bulletData: {fileID: 11400000, guid: 25305d33fb4bd7647adb4e9d4a08effc, type: 2}
   bulletColorType: 0
   shotIntervalTime: 0.1
   onceShotBullet: 3

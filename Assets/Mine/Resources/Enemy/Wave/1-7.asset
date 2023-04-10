@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1346b39716867824e91150942e65e1b8, type: 3}
+  m_Name: 1-7
+  m_EditorClassIdentifier: 
+  enemyData:
+  - name: "\u56DE\u8EE2\u7389"
+    enemyType: 0
+    enemySprite: {fileID: 11400000, guid: c8e73ef1df943bf4d8bbe7806a3b8869, type: 2}
+    bossWave: {fileID: 0}
+    appearanceTime: 12
+    movePattern: 3
+    speed: 1
+    appearancePositionX: 4
+    appearancePositionY: 4
+    shotData: {fileID: 11400000, guid: 0c8d7aed4723c1a47b92483364a32333, type: 2}
+    hp: 3
+    powerItemDropValue: 0
+    scoreItemDropValue: 0

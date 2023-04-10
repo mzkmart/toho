@@ -1,11 +1,12 @@
 using UnityEngine;
 
+
 /// <summary>
 /// 敵の弾の射撃情報（ScriptableObject） 
 /// </summary>
 
-[CreateAssetMenu(fileName = "PlayerShotDate", menuName = "Data/NewPlayerShotDate")]
-public class PlayerShotData : ScriptableObject
+[CreateAssetMenu(fileName = "EnemyShotDate", menuName = "Data/NewEnemyShotDate")]
+public class EnemyShotData : ScriptableObject
 {
     // 射撃タイプと弾の軌道
     public BulletVectorCalculation.ShotType shotType;
@@ -22,6 +23,14 @@ public class PlayerShotData : ScriptableObject
     // 弾の色
     [SerializeField] private int bulletColorType;
     public int BulletColorType { get { return bulletColorType; } set { bulletColorType = value; } }
+
+    // 射撃を開始するまでの時間
+    [SerializeField] private float shotStartTime;
+    public float ShotStartTime { get { return shotStartTime; } set { shotStartTime = value; } }
+
+    // 射撃を終了するまでの時間
+    [SerializeField] private float shotEndTime;
+    public float ShotEndTime { get { return shotEndTime; } set { shotEndTime = value; } }
 
     // 発射間隔時間
     [SerializeField] private float shotIntervalTime;

@@ -9,16 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6675fb34f7c86bf44905e4e151e32f6c, type: 3}
-  m_Name: upsingle
+  m_Script: {fileID: 11500000, guid: d0e316202e856a744b1c411a677eaadb, type: 3}
+  m_Name: enemy_1
   m_EditorClassIdentifier: 
-  shotType: 3
+  shotType: 0
   angleType: 0
-  bulletSpeed: 10
-  bulletData: {fileID: 11400000, guid: 25305d33fb4bd7647adb4e9d4a08effc, type: 2}
+  bulletSpeed: 4
+  bulletData: {fileID: 11400000, guid: 7bc2134c0366a3d4586ccade2a0fc5ac, type: 2}
   bulletColorType: 0
-  shotIntervalTime: 0.1
+  shotStartTime: 0
+  shotEndTime: 10
+  shotIntervalTime: 2
   onceShotBullet: 1
-  angleRange: 1
+  angleRange: 360
   shotAngle: 0
-  spinAngleShift: 0
+  spinAngleShift: 39.24
